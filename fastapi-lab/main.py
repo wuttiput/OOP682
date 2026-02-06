@@ -1,5 +1,5 @@
 def main():
-    print("Hello from week09-wuttiphat!")
+    print("Hello from fastapi-lab!")
 
 
 if __name__ == "__main__":
