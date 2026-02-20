@@ -6,6 +6,7 @@ class player(Sprite):
         super().__init__()
         self.name = name
         self.sheet = pygame.image.load(filename).convert_alpha()
+        self.sheet.set_colorkey((215,255,255))
         self.row = 0
         self.col = 0
         self.elapsed_time = 0
